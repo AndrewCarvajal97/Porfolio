@@ -1,7 +1,15 @@
 <template>
     <div class="contenedor">
         <div class="foto-perfil">
-            <img src="/1718908530WhatsApp_Image_2024-06-08_at_9.04.52_AM-removebg-preview.png" alt="foto de pablo andres">
+            <div class="foto">
+                <img src="/FotoPerfil.webp" alt="foto de pablo andres">
+            </div>
+            <div class="iconosContacto">
+               <a href="https://github.com/AndrewCarvajal97" target="_blank"> <img src="/svg/github.svg" alt=" " title="Icon by Icons8"></a>
+                <a href="" target="_blank"><img src="/svg/linkedin.svg" alt="" title="Icon by Icons8"></a>
+                <a href="" target="_blank"><img src="/svg/gmail.svg" alt="" title="Icon by Icons8"></a>
+                <a href="" target="_blank"><img src="/svg/whatsapp.svg" alt="" title="Icon by Icons8"></a>
+            </div>
         </div>
         <div class="descripcion">
             <h1 id="titulo">
@@ -36,16 +44,34 @@
 
     .foto-perfil {
     display: flex;
-    justify-content: end;
+    flex-direction: column;
     flex: 25%; /* Alinea los elementos a la derecha */
     }
+    .iconosContacto{
+        margin: auto;
+        padding-top: 2rem;
+        display: flex;
+        gap: 1rem;
+        
+    }
+    .iconosContacto img{
+        background-color: aliceblue;
+        text-align: center;
+        width: 3rem;
+        border-radius: 100px;
+    }
+    .foto{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
-    .foto-perfil img {
+    .foto img {
         height: auto; /* Cambia a auto para mantener la proporción de la imagen */
         width: 13rem; /* Ajusta según sea necesario */
         overflow: hidden;
-        filter: drop-shadow(7px 8px 8px #9f7aea);
-        border-radius: 10%;
+        
+        border-radius: 100px;
         z-index: -1;
     }
     .descripcion{
