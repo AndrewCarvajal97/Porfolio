@@ -22,7 +22,7 @@ export const projects = [
       {
           id: 1,
           titulo: "Aplicativo web Coopservices",
-          imagen: "/img/Coopservices.webp",
+          imagen: "/img/Projects/Coopservices.webp",
           descripcion: "Aplicativo web generado para el registro , control y gestion de los usuarios de la cooperativa de ahorro y credito llamada CoopServices desarrollado en Node.js con express para su backend y una convinacion de plantillas y codigo en HTML5 , CSS3 Y JavaScript Vanilla. ",
           tecnologias: {HTML5, 
                         JavaScript, 
@@ -38,7 +38,7 @@ export const projects = [
       {
           id: 2,
           titulo: "SENHUB-Zona Franca ",
-          imagen: "/img/coopservice.png",
+          imagen: "/img/Projects/Captura de pantalla ZonaFranca.webp",
           descripcion: "Aplicativo web desarrollado en el hackaton del 2023 organizado por softic Colombia. Mi rol en el equipo de desarrollo consistio en el maquetado y diseño de la base de datos usando postgresql  ",
           tecnologias:{
             React,
@@ -53,7 +53,7 @@ export const projects = [
       {
           id: 3,
           titulo: "Coversor de monedo Alura",
-          imagen: "/img/coopservice.png",
+          imagen: "/img/Projects/Captura de pantalla conversor de modenas alura.webp",
           descripcion: "Rest api desarrollada en Java con spring boot para realizar el cambio de divisas y comprender el funcionamiento del framework",
           tecnologias: {
             SpringBoot,
@@ -65,7 +65,7 @@ export const projects = [
       {
           id: 4,
           titulo: "Libreria Alura",
-          imagen: "/img/coopservice.png",
+          imagen: "/img/Projects/Captura de pantalla libreria Alura.webp",
           descripcion: "Rest api desarrollada en Java con spring boot para realizar la busqueda y registro de libros segun los filtros determinados con el fin de profundizar en el uso del framework",
           tecnologias: {
             SpringBoot,
@@ -77,7 +77,7 @@ export const projects = [
       {
           id: 5,
           titulo: "Foro Alura",
-          imagen: "/img/coopservice.png",
+          imagen: "/img/Projects/Captura de pantalla Foro Alura.webp",
           descripcion: "Rest api desarrollada en Java con spring boot para el funcionamiento de un foro con todos los CRUD necesarios para su correcto funcionamiento con el fin de profundizar y afinzar los conceptos del framework",
           tecnologias: {
             SpringBoot,
@@ -89,7 +89,7 @@ export const projects = [
       {
         id: 6,
         titulo: "Factura mensuly",
-        imagen: "/img/coopservice.png",
+        imagen: "/img/Projects/Factura Mensuli_page-0002.webp",
         descripcion: "Rest api desarrollada en Java con spring boot para el funcionamiento de un foro con todos los CRUD necesarios para su correcto funcionamiento con el fin de profundizar y afinzar los conceptos del framework",
         tecnologias: {
           SpringBoot,
@@ -101,7 +101,7 @@ export const projects = [
     {
         id: 7,
         titulo: "Pagina web Mensuly S A S",
-        imagen: "/img/coopservice.png",
+        imagen: "/img/Projects/Captura de pantalla SPAMensuly.webp",
         descripcion: "Rest api desarrollada en Java con spring boot para el funcionamiento de un foro con todos los CRUD necesarios para su correcto funcionamiento con el fin de profundizar y afinzar los conceptos del framework",
         tecnologias: {
           SpringBoot,
@@ -113,7 +113,7 @@ export const projects = [
     {
         id: 8,
         titulo: "Pagina web Distribuidora Pastor Julio Delgado",
-        imagen: "/img/coopservice.png",
+        imagen: "/img/Projects/captura de pantalla SPApastorJulio.webp",
         descripcion: "Rest api desarrollada en Java con spring boot para el funcionamiento de un foro con todos los CRUD necesarios para su correcto funcionamiento con el fin de profundizar y afinzar los conceptos del framework",
         tecnologias: {
           SpringBoot,
@@ -125,7 +125,7 @@ export const projects = [
     {
         id: 9,
         titulo: "Aplicativo web Recursos Humanos",
-        imagen: "/img/coopservice.png",
+        imagen: "/img/Projects/Captura de pantalla Ofertas de empleo .webp",
         descripcion: "Rest api desarrollada en Java con spring boot para el funcionamiento de un foro con todos los CRUD necesarios para su correcto funcionamiento con el fin de profundizar y afinzar los conceptos del framework",
         tecnologias: {
           SpringBoot,
