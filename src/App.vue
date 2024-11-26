@@ -5,6 +5,8 @@
   import Proyectos from './components/Proyectos.vue';
   import Estudios from './components/Estudios.vue';
   import {projects} from './assets/Data.js'
+  import Tecnologias from './components/Tecnologias.vue';
+  import Experiencias from './components/Experiencias.vue';
    
 </script>
 
@@ -25,12 +27,12 @@
   </section>
   <section id="Tecnologias">
     <div class="contenedor">
-      <h1>aca iran las tecnologias</h1>
+      <Tecnologias/>
     </div>
   </section>
-  <section id="Certificados">
+  <section id="Experiencia">
     <div class="contenedor">
-      <h1>aca iran certificados</h1>
+      <Experiencias/>
     </div>
   </section>
   <section id="Contacto">
@@ -55,7 +57,19 @@
     display: flex;
     color: white;
     min-height: 200px;
+    width: 100dvw;
+    overflow: scroll;
+    scrollbar-width: none;
+    justify-content: center;
+    
   }
+  h2{
+    font-size: 2.5rem;
+    font-family: "Arima", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: bold;;
+}
   
 
 </style>

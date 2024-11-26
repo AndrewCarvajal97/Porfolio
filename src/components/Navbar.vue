@@ -6,7 +6,7 @@
             <li><a @click="scrollToSection('Proyectos')">Proyectos</a></li>
             <li><a @click="scrollToSection('Estudios')">Estudios</a></li>
             <li><a @click="scrollToSection('Tecnologias')">Tecnologias</a></li>
-            <li><a @click="scrollToSection('Certificados')">Certificados</a></li>
+            <li><a @click="scrollToSection('Experiencia')">Experiencia Previa</a></li>
             <li><a @click="scrollToSection('Contacto')">Contacto</a></li>
         </ul>
         <a href="#" class="action_btn">Iniciar Sesion</a>
@@ -19,7 +19,7 @@
         <li @click="scrollToSection('Proyectos')"><a>Proyectos</a></li>
         <li @click="scrollToSection('Estudios')"><a>Estudios</a></li>
         <li @click="scrollToSection('Tecnologias')"><a>Tecnologias</a></li>
-        <li @click="scrollToSection('Certificados')"><a>Certificados</a></li>
+        <li @click="scrollToSection('Experiencia')"><a>Experiencia Previa</a></li>
         <li><a href="#" class="action_btn">Iniciar Sesion</a> </li>
     </div>
 </template>

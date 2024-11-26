@@ -13,7 +13,7 @@
         </div>
         <div class="descripcion">
             <h1 id="titulo">
-                ¡Hola! Soy Andrew Carvajal
+                ¡Hola! Soy Andres Carvajal
             </h1>
             <h2 id="subtitulo">
                 Desarrollador Fullstack
