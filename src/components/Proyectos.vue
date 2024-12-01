@@ -128,6 +128,7 @@ onUnmounted(() => {
 .contenedor {
   width: 100%;
   min-height: 400px;
+  height: 550px;
   position: relative;
   padding: clamp(1rem, .5vw, 2rem) 0;
   overflow: hidden;

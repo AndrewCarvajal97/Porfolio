@@ -7,6 +7,7 @@
   import {projects} from './assets/Data.js'
   import Tecnologias from './components/Tecnologias.vue';
   import Experiencias from './components/Experiencias.vue';
+  import Contacto from './components/Contacto.vue';
    
 </script>
 
@@ -37,7 +38,7 @@
   </section>
   <section id="Contacto">
     <div class="contenedor">
-      <h1>aca ira el contacto</h1>
+        <Contacto/>
     </div>
   </section>
   <BotonSubir/>
@@ -60,8 +61,7 @@
     width: 100dvw;
     overflow: scroll;
     scrollbar-width: none;
-    justify-content: center;
-    
+    justify-content: center; 
   }
   h2{
     font-size: 2.5rem;

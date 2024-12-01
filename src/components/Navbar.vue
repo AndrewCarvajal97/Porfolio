@@ -1,6 +1,6 @@
 <template>
     <nav>
-        <div class="logo"><a href="#">Andrew Dev</a></div>
+        <div class="logo"><a @click="scrollToSection('Descripcion')">Andrew Dev</a></div>
         <ul class="links">
             <li><a @click="scrollToSection('Descripcion')">Inicio</a></li>
             <li><a @click="scrollToSection('Proyectos')">Proyectos</a></li>
@@ -9,7 +9,7 @@
             <li><a @click="scrollToSection('Experiencia')">Experiencia Previa</a></li>
             <li><a @click="scrollToSection('Contacto')">Contacto</a></li>
         </ul>
-        <a href="#" class="action_btn">Iniciar Sesion</a>
+        <button href="" class="action_btn" @click="AlertaIniciarSesion">Iniciar Sesion</button>
         <div class="toggle_btn" @click="toggleMenu()">
             <img :src="isMenuOpen ? imagenAbierta:imagenCerrada" alt="Menu">
         </div>
@@ -28,6 +28,8 @@
 // imports
 import { ref } from 'vue';
 
+
+
 //estados
 let isMenuOpen = ref(false);
 //scripts
@@ -43,6 +45,9 @@ function scrollToSection(sectionId) {
         const y = section.getBoundingClientRect().top + window.pageYOffset + yOffset;
         window.scrollTo({ top: y, behavior: 'smooth' });
     }
+}
+const AlertaIniciarSesion=()=>{
+    alert('No tienes permisos para iniciar Sesion Intenta desde una IP Autorizada')
 }
 
 </script>

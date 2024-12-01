@@ -6,9 +6,9 @@
             </div>
             <div class="iconosContacto">
                <a href="https://github.com/AndrewCarvajal97" target="_blank"> <img src="/svg/github.svg" alt=" " title="Icon by Icons8"></a>
-                <a href="" target="_blank"><img src="/svg/linkedin.svg" alt="" title="Icon by Icons8"></a>
-                <a href="" target="_blank"><img src="/svg/gmail.svg" alt="" title="Icon by Icons8"></a>
-                <a href="" target="_blank"><img src="/svg/whatsapp.svg" alt="" title="Icon by Icons8"></a>
+                <a href="https://www.linkedin.com/in/pablo-andres-carvajal-ramirez-8114162aa/" target="_blank"><img src="/svg/linkedin.svg" alt="icono de linkedin" title="Icon by Icons8"></a>
+                <a href="mailto:andrewcarvajal97@gmail.com" target="_blank"><img src="/svg/gmail.svg" alt="icono de gmail" title="Icon by Icons8"></a>
+                <a href="https://wa.me/3025288271" target="_blank"><img src="/svg/whatsapp.svg" alt="icono de whatsapp" title="Icon by Icons8"></a>
             </div>
         </div>
         <div class="descripcion">
@@ -19,11 +19,10 @@
                 Desarrollador Fullstack
             </h2>
             <p id="parrafo">
-                Soy un joven apasionado por resolver problemas complejos y optimizar procesos con soluciones innovadoras.
-                <br>Tengo +1 Año de experiencia en desarrollo web, especializado en Vue 3, Node.js, y bases de datos relacionales. 
-                <br>Poseo un sólido manejo de control de versiones con Git y GitHub, además cuento con experiencia en la creación de aplicaciones eficientes y escalables. 
-                <br>Adicional mente cuento con  conocimientos en Java con Spring Boot y JavaScript Vanilla, lo que amplía mi capacidad de adaptarme a distintos entornos tecnológicos. 
-                
+                Soy un joven apasionado por resolver problemas complejos y optimizar procesos con soluciones innovadoras. 
+                <br>Tengo más de 1 año de experiencia en desarrollo web haciendo uso de  Vue 3, React, Node.js y bases de datos relacionales. 
+                <br>Poseo un sólido manejo de control de versiones con Git y GitHub, además de experiencia en la creación de aplicaciones eficientes y escalables. 
+                <br>Adicionalmente, cuento con conocimientos en Java con Spring Boot y JavaScript Vanilla, lo que amplía mi capacidad de adaptarme a distintos entornos tecnológicos. 
             </p>
         </div>  
     </div>

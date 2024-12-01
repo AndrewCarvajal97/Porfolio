@@ -9,22 +9,22 @@
             <div v-if="tarjeta.id === tarjetaActual" :class="`tarjeta ${tarjeta.titulo}`">
                 <div class="cabecera" v-if="tarjeta.id === 1">
                     <div class="titulos"><p>Nivel Academico</p></div>
-                    <div class="titulos"><p>Descripcion</p></div>
-                    <div class="titulos"><p>Institucion</p></div>
+                    <div class="titulos"><p>Descripción</p></div>
+                    <div class="titulos"><p>Institución</p></div>
                     <div class="titulos"><p>Fecha Inicio</p></div>
                     <div class="titulos"><p>Fecha fin</p></div>
                 </div>
                 <div class="cabecera" v-else-if="tarjeta.id === 2">
                     <div class="titulos"><p>Tipo</p></div>
-                    <div class="titulos"><p>Descripcion</p></div>
-                    <div class="titulos"><p>Institucion</p></div>
+                    <div class="titulos"><p>Descripción</p></div>
+                    <div class="titulos"><p>Institución</p></div>
                     <div class="titulos"><p>Fecha Inicio</p></div>
                     <div class="titulos"><p>Fecha fin</p></div>
                 </div>
                 <div class="cabecera" v-else>
                     <div class="titulos"><p>Tipo</p></div>
-                    <div class="titulos"><p>Descripcion</p></div>
-                    <div class="titulos"><p>Institucion</p></div>
+                    <div class="titulos"><p>Descripción</p></div>
+                    <div class="titulos"><p>Institución</p></div>
                     <div class="titulos"><p>Fecha Inicio</p></div>
                     <div class="titulos"><p>Fecha fin</p></div>
                 </div>
@@ -75,19 +75,19 @@ const cambiarApuntador = (event) => {
 
 <style  scoped>
     .contenedor{
-        margin: auto;
-        margin-top: 30px;
         display: flex;
         flex-direction: column;
+        margin: 0;
+        padding: 0;
         box-sizing: border-box;
-        width: 99%;
-        height: 620px;
+        width: 98%;
+        height: 550px;
         flex-wrap: wrap;
     }
     .navegacion{
-        margin: .5rem 1rem;
+        margin: 0 1rem;
         display: flex;
-        padding: 0 2rem;
+        padding: 0 1rem;
         justify-content: space-around;
         align-items: center; 
     }
@@ -135,7 +135,7 @@ const cambiarApuntador = (event) => {
         position: relative;
     }
     .cabecera{
-        width: 99%;
+        width: 95%;
         height: 3rem;
         display: flex;
         justify-content: space-around;
